@@ -13,6 +13,11 @@ def home():
     return "LEE'S HOME WEBSITE"
 
 
+@app.route("/home")
+def home():
+    return "LEE'S HOME WEBSITE"
+
+
 if __name__ == '__main__':
     app.run(debug=True)
 
